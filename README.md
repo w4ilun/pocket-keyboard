@@ -5,6 +5,8 @@ First attempt at building a keyboard from scratch
 * PCB Design and Fabrication - EasyEDA + Seeed
 * Firmware - [TMK](https://github.com/tmk/tmk_keyboard)
 
+![Assembled](http://i.imgur.com/QtvWF8S.jpg)
+
 ###Top Layer
 ![Top Layer](/images/pcb_top.png)
 
