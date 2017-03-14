@@ -1,0 +1,16 @@
+.dep
+*.o
+*.eep
+*.elf
+*.hex
+*.lss
+*.lst
+*.map
+*.sym
+tags
+*~
+build/
+*.bak
+.DS_Store
+!converter/*/binary/*.hex
+!keyboard/*/binary/*.hex
