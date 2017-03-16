@@ -44,15 +44,8 @@ static void select_row(uint8_t row);
 
 
 void matrix_init(void)
-{
-    //must disable JTAG to use PORTF pins as GPIO
-    MCUCR = (1<<JTD);
-    MCUCR = (1<<JTD);
-
-    //LED ON
-    DDRF |= (1<<5);
-    PORTF &= ~(1<<5);
-
+{   
+    debug_enable = true;
     // initialize row and col
     unselect_rows();
     init_cols();

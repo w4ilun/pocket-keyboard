@@ -19,7 +19,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "stdint.h"
 #include "led.h"
 
-
 void led_set(uint8_t usb_led)
 {
+	//must disable JTAG to use PORTF pins as GPIO
+	MCUCR = (1<<JTD);
+	MCUCR = (1<<JTD);
+	//LED ON
+	DDRF |= (1<<5);
+	PORTF &= ~(1<<5);
 }
+
