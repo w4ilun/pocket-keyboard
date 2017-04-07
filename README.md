@@ -30,7 +30,7 @@ First attempt at building a keyboard from scratch
 | LED                   | D0     | 1        |
 | 1N4148                | D1-D70 | 70       |
 | TL3303 Tactile Switch | SW     | 70       |
-| 5-way Switch          | SW     | 1        |
+| 5-way Switch          | S1     | 1        |
 
 ### Schematic
 ![Controller](/images/schem_ctrlr.png)
