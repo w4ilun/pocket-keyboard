@@ -3,6 +3,7 @@
 First attempt at building a keyboard from scratch
 
 * PCB Design and Fabrication - EasyEDA + Seeed
+* EasyEDA Project [Link](https://easyeda.com/w4ilun/Pocket_Key-5001400dc132468eae7bc688ea3f74ed)
 * Firmware - [TMK](https://github.com/tmk/tmk_keyboard)
 
 ![Assembled](http://i.imgur.com/QtvWF8S.jpg)
