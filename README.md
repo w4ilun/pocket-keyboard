@@ -22,6 +22,7 @@ First attempt at building a keyboard from scratch
 | Component             | Label  | Quantity |
 | --------------------- | ------ | -------- |
 | Atmega32u4            |        | 1        |
+| 16MHZ Crystal         | Y1     | 1        |
 | Micro USB Connector   |        | 1        |
 | 22OΩ                  | R1, R2 | 2        |
 | 10KΩ                  | R3     | 1        |
